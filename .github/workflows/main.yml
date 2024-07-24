@@ -2,7 +2,7 @@ name: Crowdin Action
 
 on:
   push:
-    branches: [ develop, l10n_develop ]
+    branches: [ develop ]
 
 jobs:
   synchronize-with-crowdin:
